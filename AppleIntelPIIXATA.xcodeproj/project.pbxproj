@@ -115,13 +115,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52952CC80DAC4FDB0070FE8E /* Build configuration list for PBXNativeTarget "AppleIntelPIIXATA" */;
 			buildPhases = (
-				52952CB60DAC4FDB0070FE8E /* ShellScript */,
 				52952CB70DAC4FDB0070FE8E /* Headers */,
 				52952CBF0DAC4FDB0070FE8E /* Resources */,
 				52952CC00DAC4FDB0070FE8E /* Sources */,
 				52952CC50DAC4FDB0070FE8E /* Frameworks */,
-				52952CC60DAC4FDB0070FE8E /* Rez */,
-				52952CC70DAC4FDB0070FE8E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -166,37 +163,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXRezBuildPhase section */
-		52952CC60DAC4FDB0070FE8E /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		52952CB60DAC4FDB0070FE8E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-		52952CC70DAC4FDB0070FE8E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52952CC00DAC4FDB0070FE8E /* Sources */ = {
